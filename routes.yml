@@ -1,0 +1,8 @@
+
+routes:
+    default: Syrus
+    members: MembersArea
+    contact$: ContactPage
+    "product/:category/:product_id": PathParamsExample
+
+

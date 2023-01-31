@@ -1,0 +1,37 @@
+{
+    "name": "apex/router", 
+    "description": "Light weight, straight forward router", 
+    "type": "package",
+    "homepage": "https://apexpl.io",
+    "authors": [
+        {
+            "name": "Matt Dizak", 
+            "email": "matt@apexpl.io"
+        }
+    ], 
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1", 
+        "apex/syrus": "^2.0",
+        "nyholm/psr7-server": "^1.0",
+        "nyholm/psr7": "^1.5",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "symfony/yaml": "^6.2",
+        "apex/container": "^2.0",
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "apex/signer": "^2.0"
+    },
+    "suggest": {
+        "apex/debugger": "^2.0"
+    }, 
+    "autoload": {
+        "psr-4": { 
+            "Apex\\Router\\": "src/",
+            "Middleware\\": "middleware/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+PHP Fatal error:  Uncaught Error: Undefined constant "Middleware\path_params" in /home/boxer/devel/apex/depend/container/src/Attributes.php:60
+Stack trace:
+#0 /home/boxer/devel/apex/depend/container/src/Attributes.php(60): ReflectionAttribute->getArguments()
+#1 /home/boxer/devel/apex/depend/container/src/Attributes.php(39): Apex\Container\Attributes->checkAttribute()
+#2 /home/boxer/devel/apex/depend/container/src/Container.php(153): Apex\Container\Attributes->injectProperties()
+#3 /home/boxer/devel/apex/depend/router/src/Router.php(135): Apex\Container\Container->make()
+#4 /home/boxer/devel/apex/depend/router/src/Router.php(39): Apex\Router\Router->lookup()
+#5 /home/boxer/devel/apex/depend/router/example.php(21): Apex\Router\Router->handle()
+#6 {main}
+  thrown in /home/boxer/devel/apex/depend/container/src/Attributes.php on line 60
