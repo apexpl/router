@@ -1,7 +1,7 @@
 
 # Apex Router
 
-Light weight, easy to understand and use HTTP router that also comes fully and optionally integrated with the [Syrus template engine](https://github.com/apexpl/syrus/), essentially turning it into a cool little micro framework.  Not meant for leavy lifting, but excellent if you just need something well structured up and running quickly.  Supports the following:
+Light weight, easy to understand and use HTTP router that also comes fully and optionally integrated with the [Syrus template engine](https://github.com/apexpl/syrus/), essentially turning it into a cool little micro framework.  Not meant for heavy lifting, but excellent if you just need something well structured up and running quickly.  Supports the following:
 
 * Simplistic YAML file to define routes which supports partial and full matching paths, dynamic path parameters, and multiple hostnames.
 * Fully supports PSR15 and PSR7, and uses middleware classes for forwarding of all HTTP requests.
@@ -13,7 +13,7 @@ Light weight, easy to understand and use HTTP router that also comes fully and o
 
 Install via Composer with:
 
-> `composer require apex/routing`
+> `composer require apex/router`
 
 
 ## Table of Contents
