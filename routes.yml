@@ -1,8 +1,15 @@
 
+##########
+# Below defines the various HTTP routes supported by the system 
+# and which controller within the /src/HttpControllers/ directory handles them.
+#
+# Please refer to the documentation for full details.
+##########
+
 routes:
     default: Syrus
     members: MembersArea
     contact$: ContactPage
-    "product/:category/:product_id": PathParamsExample
+    'product/:category/:product_id': PathParamsExample
 
 

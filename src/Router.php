@@ -20,8 +20,8 @@ class Router extends RouterUtils implements RouterInterface
      * Constructor
      */
     public function __construct(
-        private $routes_yaml_file = __DIR__ . '/../routes.yml',
-        private $middleware_namespace = 'Middleware',
+        private string $routes_yaml_file = __DIR__ . '/../routes.yml',
+        private string $middleware_namespace = 'Middleware',
         private string $syrus_container_file = '',
         ApexContainerInterface $cntr = new Container()
     ) {

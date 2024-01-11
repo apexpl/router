@@ -1,0 +1,6 @@
+vendor/
+test.php
+notes.txt
+composer.lock
+.phpunit.result.cache
+
